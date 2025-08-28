@@ -8,7 +8,7 @@ library(readr)
 
 url <- "https://github.com/GNUR-8559/course_datasets/raw/main/SBP.csv"
 
-# Read CSV directly from the URL (no need for tempfile here)
+# Read CSV directly from the URL
 df <- read_csv(url)
 
 head(df)
